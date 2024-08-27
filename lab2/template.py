@@ -22,6 +22,11 @@
 # TODO : 8. Initialize a string variable holding a welcome message that can be displayed to user
 # Add you code of TODO 8 here
 
+# Something you may want to copy paste:
+# Welcome to Battleships! Hit ENTER to continue.
+# Please enter coordinate of the attack center point in following this format (row,col,depth). E.g. A,4,1
+# Note: depth = 0 represents the subsea layer, and depth = 1 represents the surface level.
+
 print(player1, player2)
 print(layer)
 print(width, height)
