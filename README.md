@@ -6,4 +6,5 @@
 
 ## Lab 2
 
-- [slide]()
+- [slide](https://docs.google.com/presentation/d/1x_74jQsKCS3dACHSdP50J9AIooIl-K0MM2eCXI9cVSQ/edit?usp=sharing)
+- [group assigning algorithm](lab2/assign.py)
