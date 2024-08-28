@@ -1,4 +1,4 @@
-# SC1003-Answers
+# SC1003
 
 ## Lab 1
 
@@ -7,4 +7,4 @@
 ## Lab 2
 
 - [slide](https://docs.google.com/presentation/d/1x_74jQsKCS3dACHSdP50J9AIooIl-K0MM2eCXI9cVSQ/edit?usp=sharing)
-- [group assigning algorithm](lab2/assign.py)
+- [code](lab2/battleships.py)
