@@ -7569,10 +7569,16 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>a = 2
-b = 3
-</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In[6], line 1</span>
+<span class="ansi-green-fg">----&gt; 1</span> a, b <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">input</span>(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">Please enter two number: </span><span style="color: rgb(175,0,0)">"</span>)<span style="color: rgb(98,98,98)">.</span>split(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">,</span><span style="color: rgb(175,0,0)">"</span>)
+<span class="ansi-green-intense-fg ansi-bold">      2</span> a <span style="color: rgb(98,98,98)">=</span> a<span style="color: rgb(98,98,98)">.</span>strip() <span style="color: rgb(95,135,135)"># remove the space before and after the string</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span> b <span style="color: rgb(98,98,98)">=</span> b<span style="color: rgb(98,98,98)">.</span>strip()
+
+<span class="ansi-red-fg">ValueError</span>: not enough values to unpack (expected 2, got 1)</pre>
 </div>
 </div>
 </div>
@@ -7670,6 +7676,7 @@ b = 3
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mf">0.2</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mf">0.1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="si">{:.2}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">))</span>
 </pre></div>
 </div>
@@ -7683,7 +7690,8 @@ b = 3
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>0.3
+<pre>0.30000000000000004
+0.3
 </pre>
 </div>
 </div>
