@@ -7,4 +7,6 @@
 ## Lab 2
 
 - [slide](https://docs.google.com/presentation/d/1x_74jQsKCS3dACHSdP50J9AIooIl-K0MM2eCXI9cVSQ/edit?usp=sharing)
+- [template](lab2/template.py)
 - [code](lab2/battleships.py)
+- [code presented in class](lab2/battleships_class.py)
