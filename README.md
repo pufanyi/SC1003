@@ -10,4 +10,4 @@
 - [template](lab2/template.py)
 - [code](lab2/battleships.py)
 - [grouping sheet](https://docs.google.com/spreadsheets/d/1zMEu0TiVq10R71-V8Y14cAjz2PKVh8ILXTUxlmKWJSU/edit)
-- [demo](lab2/demo.html)
+- [demo](https://pufanyi.github.io/SC1003/lab2/demo)
