@@ -11,3 +11,9 @@
 - [code](lab2/battleships.py)
 - [grouping sheet](https://docs.google.com/spreadsheets/d/1zMEu0TiVq10R71-V8Y14cAjz2PKVh8ILXTUxlmKWJSU/edit)
 - [demo](https://pufanyi.github.io/SC1003/lab2/demo)
+
+## Lab 3
+
+- [slide](https://docs.google.com/presentation/d/1FcPxm_aHqGtF2L1eAJ-OSI8hpX2X2N4rqzIfx4_QWjU/)
+- [template](lab3/template.py)
+- [code](lab3/battleships.py)
