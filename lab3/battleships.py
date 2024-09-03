@@ -10,9 +10,20 @@ x, y = 5, 8
 # TODO : 1. Check if coordinates are within the valid range
 # Add you code of TODO 1 here
 
+if 0 <= x < board_size and 0 <= y < board_size:
+    print(f"Coordinates ({x}, {y}) are valid: True")
+else:
+    print(f"Coordinates ({x}, {y}) are valid: False")
+
+# print(f"Coordinates ({x}, {y}) are valid: {0 <= x < board_size and 0 <= y < board_size}")
 
 # One more example
 x, y = 10, -1
+
+if 0 <= x < board_size and 0 <= y < board_size:
+    print(f"Coordinates ({x}, {y}) are valid: True")
+else:
+    print(f"Coordinates ({x}, {y}) are valid: False")
 
 # TODO : 2. Check if coordinates are within the valid range
 # Copy your code of TODO 1 here to test on x, y = 10, -1
@@ -41,7 +52,7 @@ x, y, orientation = 11, 3, 'diagonal'
 x, y, ship_length, orientation = 3, 5, 4, 'horizontal'
 # TODO : 5. Validate the placement of a ship
 # Add you code of TODO 5 here
-#One more example
+# One more example
 x, y, ship_length, orientation = 7, 7, 4, 'vertical'
 # TODO : 6. Validate the placement of a ship
 # Copy your code of TODO 5 here to test on x, y, ship_length, orientation = 7, 7, 4, 'vertical'
