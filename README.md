@@ -17,3 +17,4 @@
 - [slide](https://docs.google.com/presentation/d/1FcPxm_aHqGtF2L1eAJ-OSI8hpX2X2N4rqzIfx4_QWjU/)
 - [template](lab3/template.py)
 - [code](lab3/battleships.py)
+- [demo](lab3/presentation.py)
