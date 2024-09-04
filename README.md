@@ -18,3 +18,4 @@
 - [template](lab3/template.py)
 - [code](lab3/battleships.py)
 - [demo](lab3/presentation.py)
+- [group selection](lab3/group_selection.py)
