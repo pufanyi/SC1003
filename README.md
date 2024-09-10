@@ -19,3 +19,7 @@
 - [code](lab3/battleships.py)
 - [demo](lab3/presentation.py)
 - [group selection](lab3/group_selection.py)
+
+## Lab 4
+
+- [slide](https://docs.google.com/presentation/d/1bNICatr2SmpXnK5VyfeLsOH5XldW0EVZ7cwEX8t_lwA/edit?usp=sharing)
