@@ -23,3 +23,5 @@
 ## Lab 4
 
 - [slide](https://docs.google.com/presentation/d/1bNICatr2SmpXnK5VyfeLsOH5XldW0EVZ7cwEX8t_lwA/edit?usp=sharing)
+- [template](lab4/template.py)
+- [code](lab4/solution.py)
