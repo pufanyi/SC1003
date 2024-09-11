@@ -36,9 +36,9 @@ while not valid:
     #     print("Please enter again")
 
     # Another solution:
+    sx = input("Enter attack row (0-9): ")
+    sy = input("Enter attack column (0-9): ")
     try:
-        sx = input("Enter attack row (0-9): ")
-        sy = input("Enter attack column (0-9): ")
         x = int(sx)
         y = int(sy)
     except:
