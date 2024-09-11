@@ -22,27 +22,34 @@ while not valid:
     # valid = True
     # # if x or y are not numbers
     # if not x.isdigit() or not y.isdigit():
-    #     print("Invalid input. Please enter a number.")
+    #     print(f"Coordinates ({x}, {y}) are valid: False")
+    #     print("Please enter again")
     #     valid = False
     #     continue
     # x = int(x)
     # y = int(y)
     # # if x or y are out of range
     # if x < 0 or x >= board_size or y < 0 or y >= board_size:
-    #     print("Invalid input. Please enter a number between 0 and 9.")
     #     valid = False
+    # print(f"Coordinates ({x}, {y}) are valid: {valid}")
+    # if not valid:
+    #     print("Please enter again")
 
     # Another solution:
     try:
-        x = int(input("Enter attack row (0-9): "))
-        y = int(input("Enter attack column (0-9): "))
-    except ValueError:
-        print("Invalid input. Please enter a number.")
+        sx = input("Enter attack row (0-9): ")
+        sy = input("Enter attack column (0-9): ")
+        x = int(sx)
+        y = int(sy)
+    except:
+        print(f"Coordinates ({sx}, {sy}) are valid: False")
         continue
 
     valid = 0 <= x < board_size and 0 <= y < board_size
+    print(f"Coordinates ({x}, {y}) are valid: {valid}")
+
     if not valid:
-        print("Invalid input. Please enter a number between 0 and 9.")
+        print("Please enter again")
 
 board[x][y] = 1
 
